@@ -21,6 +21,10 @@
       "FormShield\\Tests\\": "tests/"
     }
   },
+  "repositories": [
+    { "type": "vcs", "url": "https://github.com/simsar78/formshield" }
+  ],
   "minimum-stability": "stable",
   "prefer-stable": true
+  
 }
