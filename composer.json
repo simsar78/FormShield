@@ -3,28 +3,9 @@
   "description": "Protezione anti-bot per form e AJAX in PHP puro (CSRF, honeypot, time-gate, rate limiter) compatibile PHP 7.x e 8.x.",
   "type": "library",
   "license": "MIT",
-  "authors": [
-    {
-      "name": "Simsar78"
-    }
-  ],
-  "require": {
-    "php": ">=7.2"
-  },
+  "authors": [{ "name": "Simsar78" }],
+  "require": { "php": ">=7.2" },
   "autoload": {
-    "psr-4": {
-      "FormShield\\": "src/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "FormShield\\Tests\\": "tests/"
-    }
-  },
-  "repositories": [
-    { "type": "vcs", "url": "https://github.com/simsar78/formshield" }
-  ],
-  "minimum-stability": "stable",
-  "prefer-stable": true
-  
+    "psr-4": { "FormShield\\": "src/" }
+  }
 }
